@@ -1,0 +1,28 @@
+# Python venv
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment and Secrets
+.env
+.env.local
+*.key
+
+# Data and Artifacts
+data/raw/
+data/processed/
+results/*.json
+results/*.csv
+results/*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+plan/
+.gemini/
